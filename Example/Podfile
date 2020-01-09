@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'FFHelper_Example' do
+  pod 'FFHelper', :path => '../'
+
+  target 'FFHelper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
