@@ -7,16 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E9B275F61C70AEDC48C10433A53B6D8 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9357481713ADB9E8FDE3965763224C /* ReplaceMe.m */; };
+		1172B207E27F165B95443F454B6B0A01 /* NSObject+FFHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D9530202E718DA24D8CE80E7A5C1EFC4 /* NSObject+FFHelper.m */; };
+		12A7A182E9B7980C10CEDCD4479D6211 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		133A86356E78D4347A0D2DF7577F3D9D /* FFHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F291305807EE3FF5D310CAFD74088C2 /* FFHelper-dummy.m */; };
 		13B06D1CF90522E3D3CD99EA8B70BF4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		17440EAB6843CCF5BAFAE58AF6B11825 /* NSObject+FFSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED533ABAE707D9F623993F43AB8A333 /* NSObject+FFSafe.m */; };
+		1C0B857A39554807163B6C71E9D5826A /* NSObject+FFDictionarySafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 585823136C28FC238E4AAAC516AD8E99 /* NSObject+FFDictionarySafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EC2150CC49A2BEE1E77ACDE4DC4981B /* FFFPSLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B86A04584BDE0D5408F342B57497D9F /* FFFPSLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2275163F8DFFFBE64405933CC683BAA8 /* FFWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDD55D5370FD26AFB3EF70C275E21CE /* FFWeakProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24476451E413B5B07965B8C66042C0C4 /* YCGHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E0CA9CEAE8974145EB902BCE26B4BC0C /* YCGHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2AE7C82A875EA65DC81CE704886833B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		2E3933901B392188AE0FCBC158FF9717 /* NSObject+FFDictionarySafe.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AE510713E7A522CFB363BCED703AB2 /* NSObject+FFDictionarySafe.m */; };
+		3457B72C5CAF20C6A942D6D42EE6FACF /* NSObject+FFStringSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = A49BEFC9A86EA1BE2427E9D32F181760 /* NSObject+FFStringSafe.m */; };
 		3544FF3233D57AC04D9B9C4EE6FBC79A /* Pods-FFHelper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E01A68EFB4142C95B0A441845EC8F72C /* Pods-FFHelper_Example-dummy.m */; };
+		35D15BFC397B4B4D9F4A24703FC870A3 /* NSObject+FFHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FA10B4230679A3021D852D68BBBCCF4 /* NSObject+FFHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3922A152BBC984D7D6757C5CE9F224D6 /* Pods-FFHelper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD6708109A517D2AF8B8D4A31D28E172 /* Pods-FFHelper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4242E1E9E177613D0CCE84847758166C /* UIView+FFHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3EA40207A9E7473AA68DA6E05C0BE6 /* UIView+FFHelper.m */; };
+		4BF3D1488B41E34E452E6582B8310302 /* FFWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE88BCCA6C172174B8D2C8B178DB337E /* FFWeakProxy.m */; };
+		528021635F4F8551C0943A93FE01C035 /* FFHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C0B3AF33D11D8A85EAAB67510D603BC /* FFHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C4278E09E16BB98095D0611FB60CA2B /* YCGMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A055BC54F18CF637397E88A1EDDA966 /* YCGMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		601CE9785F5DA22A0B33867D41358007 /* UIViewController+FFHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 918834D389EC171E6ED9CA41D85CFF21 /* UIViewController+FFHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6287EFFB2BFECCB7179B4BAAADE787B2 /* Pods-FFHelper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88771DDE6B03C60BA70422D01178D7C9 /* Pods-FFHelper_Tests-dummy.m */; };
-		6E969A132C4E6980B8BAAD41382975F5 /* FFHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F291305807EE3FF5D310CAFD74088C2 /* FFHelper-dummy.m */; };
-		9BCD49DD734DBF51780F662583420C42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		AEE4AD448212D21324D1B7CE48D62A82 /* FFHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C0B3AF33D11D8A85EAAB67510D603BC /* FFHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6319FF046B5643D3DA688C942FC02C60 /* NSObject+FFStringSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = C1DB654C1A52B4717CEF83A93695C6F8 /* NSObject+FFStringSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65993596E616A2B7C16EBFDFE4A30653 /* NSObject+FFSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = BA13B5C3F80F16A01582F163FAE252CB /* NSObject+FFSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65DDC694B3929B1F0A6DE84C532D011E /* UIView+FFHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D7FD57D89FBB335407D2931474C1A9 /* UIView+FFHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87DF7BA1755F9AD632886E3EFA302DE4 /* UIViewController+FFHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D353FFDA64400A137C24BC73097850 /* UIViewController+FFHelper.m */; };
+		89134399209555C434563474FB0C1736 /* FFFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 959C1A4522D252C45EFD0478D782FB93 /* FFFPSLabel.m */; };
+		89A92022D780FC4DB97CE25C933C7CA5 /* UIColor+FFHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E1E8C09671DC8B6FEC654B569988695C /* UIColor+FFHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DF86774D9AE55706DD9786942A82AAE /* NSDate+FFHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 874425046E8D74333B10A1C45430917F /* NSDate+FFHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		973EB7EAA0288A223B7F7DF04BE6D39C /* NSDate+FFHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EF4E0089BACC5404CD4C63538705A0 /* NSDate+FFHelper.m */; };
 		C8BE443CD1CFE266022B5617AF56858E /* Pods-FFHelper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BF6427384B8BD2420A27A5AB986122E /* Pods-FFHelper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8BEB3F4AC8CF3E4962054D8C6E4AC5A /* UIColor+FFHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DD77964EDC6377A4792F66FFF4072C9F /* UIColor+FFHelper.m */; };
+		D447A2DD043A41019B774EC678664C98 /* FFHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1123C44AD76A5AA54AC743F988E6D327 /* FFHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED2EA2ED244844B0D556EEDC317AC9FA /* NSObject+FFArraySafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 554444C9EAEEEBDAEA81F35111B2DD14 /* NSObject+FFArraySafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6EFA63DA69FF11010E501A9C45339ED /* NSObject+FFArraySafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 984C6BBA8F4C7B54048A79E2AE1F67EB /* NSObject+FFArraySafe.m */; };
+		FAD2635DA09B1292B5A2451B25B1F101 /* FFSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = EFF37B33CF1052A423868F2AF3F2FA0D /* FFSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,19 +49,26 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 882730AE7D3800F57295B1BA937FD2F6;
+			remoteGlobalIDString = 953A6C7E171491A9C64A4BB0BA03A4C4;
 			remoteInfo = FFHelper;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1123C44AD76A5AA54AC743F988E6D327 /* FFHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FFHelper.h; sourceTree = "<group>"; };
 		123C2A81A4F8797732F6B4DE3554A2D6 /* FFHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FFHelper.framework; path = FFHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A055BC54F18CF637397E88A1EDDA966 /* YCGMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YCGMacros.h; sourceTree = "<group>"; };
 		2F291305807EE3FF5D310CAFD74088C2 /* FFHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FFHelper-dummy.m"; sourceTree = "<group>"; };
 		311B7F697288313BDBEA47864C4B06B0 /* Pods-FFHelper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FFHelper_Example.modulemap"; sourceTree = "<group>"; };
 		31B04DC6E7EF46EF2B6D2B41089A52AF /* Pods_FFHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FFHelper_Tests.framework; path = "Pods-FFHelper_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36EF4E0089BACC5404CD4C63538705A0 /* NSDate+FFHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+FFHelper.m"; sourceTree = "<group>"; };
 		39CBB5E09E9D0DB47BF85EA67735094F /* FFHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFHelper-prefix.pch"; sourceTree = "<group>"; };
+		3B86A04584BDE0D5408F342B57497D9F /* FFFPSLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FFFPSLabel.h; sourceTree = "<group>"; };
 		3C0B3AF33D11D8A85EAAB67510D603BC /* FFHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFHelper-umbrella.h"; sourceTree = "<group>"; };
 		52F12B560261A5A156F2072B2B63D49D /* FFHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FFHelper.modulemap; sourceTree = "<group>"; };
+		554444C9EAEEEBDAEA81F35111B2DD14 /* NSObject+FFArraySafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+FFArraySafe.h"; sourceTree = "<group>"; };
+		57D353FFDA64400A137C24BC73097850 /* UIViewController+FFHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FFHelper.m"; sourceTree = "<group>"; };
+		585823136C28FC238E4AAAC516AD8E99 /* NSObject+FFDictionarySafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+FFDictionarySafe.h"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		61343C58CCCA4A296A3EECFEE657BEF6 /* Pods-FFHelper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FFHelper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		62E15C205532E58083D459B861334E3A /* Pods-FFHelper_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FFHelper_Example-resources.sh"; sourceTree = "<group>"; };
@@ -45,23 +77,41 @@
 		6BF6427384B8BD2420A27A5AB986122E /* Pods-FFHelper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FFHelper_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6D71B0CD4C86DC376FB8FEE2FFD405E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A7A970498AE29D0C549B197778BCC93 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		874425046E8D74333B10A1C45430917F /* NSDate+FFHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+FFHelper.h"; sourceTree = "<group>"; };
 		88771DDE6B03C60BA70422D01178D7C9 /* Pods-FFHelper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FFHelper_Tests-dummy.m"; sourceTree = "<group>"; };
+		8FA10B4230679A3021D852D68BBBCCF4 /* NSObject+FFHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+FFHelper.h"; sourceTree = "<group>"; };
+		918834D389EC171E6ED9CA41D85CFF21 /* UIViewController+FFHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FFHelper.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		959C1A4522D252C45EFD0478D782FB93 /* FFFPSLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FFFPSLabel.m; sourceTree = "<group>"; };
+		984C6BBA8F4C7B54048A79E2AE1F67EB /* NSObject+FFArraySafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FFArraySafe.m"; sourceTree = "<group>"; };
 		9D582C6DA47E15C8FE43A92B7725A84F /* Pods-FFHelper_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FFHelper_Tests-resources.sh"; sourceTree = "<group>"; };
-		9E9357481713ADB9E8FDE3965763224C /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		9ED533ABAE707D9F623993F43AB8A333 /* NSObject+FFSafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FFSafe.m"; sourceTree = "<group>"; };
+		A49BEFC9A86EA1BE2427E9D32F181760 /* NSObject+FFStringSafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FFStringSafe.m"; sourceTree = "<group>"; };
 		A62BAD99F754A99AE92949880ADB3A6A /* Pods-FFHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B2300BC195656FCC90CA11AEF8DD6675 /* Pods-FFHelper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFHelper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B38F9B2B14602D0CC15A2053E36D92C4 /* Pods-FFHelper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FFHelper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B4AE510713E7A522CFB363BCED703AB2 /* NSObject+FFDictionarySafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FFDictionarySafe.m"; sourceTree = "<group>"; };
+		BA13B5C3F80F16A01582F163FAE252CB /* NSObject+FFSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+FFSafe.h"; sourceTree = "<group>"; };
 		BBEC23C8751FC6ADEEBD86F90EA24CB5 /* Pods-FFHelper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFHelper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C1DB654C1A52B4717CEF83A93695C6F8 /* NSObject+FFStringSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+FFStringSafe.h"; sourceTree = "<group>"; };
+		CBDD55D5370FD26AFB3EF70C275E21CE /* FFWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FFWeakProxy.h; sourceTree = "<group>"; };
 		CD6708109A517D2AF8B8D4A31D28E172 /* Pods-FFHelper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FFHelper_Example-umbrella.h"; sourceTree = "<group>"; };
 		CE7AC857580FFF44B88007A865D4CD42 /* Pods-FFHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D9530202E718DA24D8CE80E7A5C1EFC4 /* NSObject+FFHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FFHelper.m"; sourceTree = "<group>"; };
 		DC364C8FEE5A123F6AF16C017580AADA /* Pods-FFHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DD77964EDC6377A4792F66FFF4072C9F /* UIColor+FFHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FFHelper.m"; sourceTree = "<group>"; };
 		E01A68EFB4142C95B0A441845EC8F72C /* Pods-FFHelper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FFHelper_Example-dummy.m"; sourceTree = "<group>"; };
+		E0CA9CEAE8974145EB902BCE26B4BC0C /* YCGHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YCGHelper.h; sourceTree = "<group>"; };
+		E1E8C09671DC8B6FEC654B569988695C /* UIColor+FFHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+FFHelper.h"; sourceTree = "<group>"; };
+		EB3EA40207A9E7473AA68DA6E05C0BE6 /* UIView+FFHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+FFHelper.m"; sourceTree = "<group>"; };
+		EFF37B33CF1052A423868F2AF3F2FA0D /* FFSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FFSafe.h; sourceTree = "<group>"; };
 		F22D5BDA4FB6132A41A2B3DA51450654 /* Pods-FFHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F3E73580D8D29A580C1D1B97A41F6B64 /* Pods-FFHelper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FFHelper_Tests.modulemap"; sourceTree = "<group>"; };
 		F52DE84040DC3D9E9590F56706D0D966 /* FFHelper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFHelper.xcconfig; sourceTree = "<group>"; };
+		F8D7FD57D89FBB335407D2931474C1A9 /* UIView+FFHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+FFHelper.h"; sourceTree = "<group>"; };
 		FA772BD5562F71E0C50DC9C3FC148C59 /* Pods-FFHelper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FFHelper_Example-frameworks.sh"; sourceTree = "<group>"; };
 		FA8DB54FB81976DC321A00E1F84A16A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE88BCCA6C172174B8D2C8B178DB337E /* FFWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FFWeakProxy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +131,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B02B97A5D27F25504623034BD1D6279D /* Frameworks */ = {
+		DFB82726B2E21DD8F97D743B926254A3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BCD49DD734DBF51780F662583420C42 /* Foundation.framework in Frameworks */,
+				12A7A182E9B7980C10CEDCD4479D6211 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,12 +151,60 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		3D2B21DCD3B588E9FB352A06B1B14813 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				1123C44AD76A5AA54AC743F988E6D327 /* FFHelper.h */,
+				874425046E8D74333B10A1C45430917F /* NSDate+FFHelper.h */,
+				36EF4E0089BACC5404CD4C63538705A0 /* NSDate+FFHelper.m */,
+				8FA10B4230679A3021D852D68BBBCCF4 /* NSObject+FFHelper.h */,
+				D9530202E718DA24D8CE80E7A5C1EFC4 /* NSObject+FFHelper.m */,
+				E1E8C09671DC8B6FEC654B569988695C /* UIColor+FFHelper.h */,
+				DD77964EDC6377A4792F66FFF4072C9F /* UIColor+FFHelper.m */,
+				F8D7FD57D89FBB335407D2931474C1A9 /* UIView+FFHelper.h */,
+				EB3EA40207A9E7473AA68DA6E05C0BE6 /* UIView+FFHelper.m */,
+				918834D389EC171E6ED9CA41D85CFF21 /* UIViewController+FFHelper.h */,
+				57D353FFDA64400A137C24BC73097850 /* UIViewController+FFHelper.m */,
+			);
+			name = Helper;
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		5A9DF23066B054C0BF7B12AD92EBCB79 /* FPS */ = {
+			isa = PBXGroup;
+			children = (
+				3B86A04584BDE0D5408F342B57497D9F /* FFFPSLabel.h */,
+				959C1A4522D252C45EFD0478D782FB93 /* FFFPSLabel.m */,
+				CBDD55D5370FD26AFB3EF70C275E21CE /* FFWeakProxy.h */,
+				FE88BCCA6C172174B8D2C8B178DB337E /* FFWeakProxy.m */,
+			);
+			name = FPS;
+			path = FPS;
+			sourceTree = "<group>";
+		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		6EE4A922BD2BCC2CA3C69F1C0902EE28 /* Safe */ = {
+			isa = PBXGroup;
+			children = (
+				EFF37B33CF1052A423868F2AF3F2FA0D /* FFSafe.h */,
+				554444C9EAEEEBDAEA81F35111B2DD14 /* NSObject+FFArraySafe.h */,
+				984C6BBA8F4C7B54048A79E2AE1F67EB /* NSObject+FFArraySafe.m */,
+				585823136C28FC238E4AAAC516AD8E99 /* NSObject+FFDictionarySafe.h */,
+				B4AE510713E7A522CFB363BCED703AB2 /* NSObject+FFDictionarySafe.m */,
+				BA13B5C3F80F16A01582F163FAE252CB /* NSObject+FFSafe.h */,
+				9ED533ABAE707D9F623993F43AB8A333 /* NSObject+FFSafe.m */,
+				C1DB654C1A52B4717CEF83A93695C6F8 /* NSObject+FFStringSafe.h */,
+				A49BEFC9A86EA1BE2427E9D32F181760 /* NSObject+FFStringSafe.m */,
+			);
+			name = Safe;
+			path = Safe;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -120,10 +218,23 @@
 			);
 			sourceTree = "<group>";
 		};
+		9D3A2C5A3B07E90A73022241E8C25098 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E0CA9CEAE8974145EB902BCE26B4BC0C /* YCGHelper.h */,
+				2A055BC54F18CF637397E88A1EDDA966 /* YCGMacros.h */,
+				5A9DF23066B054C0BF7B12AD92EBCB79 /* FPS */,
+				3D2B21DCD3B588E9FB352A06B1B14813 /* Helper */,
+				6EE4A922BD2BCC2CA3C69F1C0902EE28 /* Safe */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		ACB7D838FE6146DA3C785AED5BBCCD7D /* FFHelper */ = {
 			isa = PBXGroup;
 			children = (
-				E6B2CC1D6334CA3FF99A0677AB5B9C9E /* FFHelper */,
+				B7BFA43C687D3C3816271CDD7B98C359 /* FFHelper */,
 				C9B8D16CFCC16DE8FE0B532AC392DA6D /* Support Files */,
 			);
 			name = FFHelper;
@@ -148,6 +259,15 @@
 			path = "Target Support Files/Pods-FFHelper_Example";
 			sourceTree = "<group>";
 		};
+		B7BFA43C687D3C3816271CDD7B98C359 /* FFHelper */ = {
+			isa = PBXGroup;
+			children = (
+				9D3A2C5A3B07E90A73022241E8C25098 /* Classes */,
+			);
+			name = FFHelper;
+			path = FFHelper;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,15 +290,6 @@
 			path = "Example/Pods/Target Support Files/FFHelper";
 			sourceTree = "<group>";
 		};
-		D40346D58AD7BD1B209646570EBB129A /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				9E9357481713ADB9E8FDE3965763224C /* ReplaceMe.m */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		D4C0824665E3DFCB0CA2EEF42DF3E46A /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,15 +298,6 @@
 				31B04DC6E7EF46EF2B6D2B41089A52AF /* Pods_FFHelper_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		E6B2CC1D6334CA3FF99A0677AB5B9C9E /* FFHelper */ = {
-			isa = PBXGroup;
-			children = (
-				D40346D58AD7BD1B209646570EBB129A /* Classes */,
-			);
-			name = FFHelper;
-			path = FFHelper;
 			sourceTree = "<group>";
 		};
 		E6D8EACD0B37FF05219A8EDE3891BC10 /* Development Pods */ = {
@@ -227,19 +329,34 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		39085872D5906D0AFD549A855F90763D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AEE4AD448212D21324D1B7CE48D62A82 /* FFHelper-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B4A28FFA810F669D8651AA1048289616 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C8BE443CD1CFE266022B5617AF56858E /* Pods-FFHelper_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA66B62D68DA44F5E2A19D230CBBB1C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EC2150CC49A2BEE1E77ACDE4DC4981B /* FFFPSLabel.h in Headers */,
+				528021635F4F8551C0943A93FE01C035 /* FFHelper-umbrella.h in Headers */,
+				D447A2DD043A41019B774EC678664C98 /* FFHelper.h in Headers */,
+				FAD2635DA09B1292B5A2451B25B1F101 /* FFSafe.h in Headers */,
+				2275163F8DFFFBE64405933CC683BAA8 /* FFWeakProxy.h in Headers */,
+				8DF86774D9AE55706DD9786942A82AAE /* NSDate+FFHelper.h in Headers */,
+				ED2EA2ED244844B0D556EEDC317AC9FA /* NSObject+FFArraySafe.h in Headers */,
+				1C0B857A39554807163B6C71E9D5826A /* NSObject+FFDictionarySafe.h in Headers */,
+				35D15BFC397B4B4D9F4A24703FC870A3 /* NSObject+FFHelper.h in Headers */,
+				65993596E616A2B7C16EBFDFE4A30653 /* NSObject+FFSafe.h in Headers */,
+				6319FF046B5643D3DA688C942FC02C60 /* NSObject+FFStringSafe.h in Headers */,
+				89A92022D780FC4DB97CE25C933C7CA5 /* UIColor+FFHelper.h in Headers */,
+				65DDC694B3929B1F0A6DE84C532D011E /* UIView+FFHelper.h in Headers */,
+				601CE9785F5DA22A0B33867D41358007 /* UIViewController+FFHelper.h in Headers */,
+				24476451E413B5B07965B8C66042C0C4 /* YCGHelper.h in Headers */,
+				5C4278E09E16BB98095D0611FB60CA2B /* YCGMacros.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,13 +389,13 @@
 			productReference = 6A9757E5B0F855221F79651DAC58800F /* Pods_FFHelper_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		882730AE7D3800F57295B1BA937FD2F6 /* FFHelper */ = {
+		953A6C7E171491A9C64A4BB0BA03A4C4 /* FFHelper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 94F4692AA8E4E14088633FE253DC87F9 /* Build configuration list for PBXNativeTarget "FFHelper" */;
+			buildConfigurationList = B38D192BF3F1FED2291617B0124A7DBE /* Build configuration list for PBXNativeTarget "FFHelper" */;
 			buildPhases = (
-				2FE5D1894C07AA617B6E1D8E701CA4AB /* Sources */,
-				B02B97A5D27F25504623034BD1D6279D /* Frameworks */,
-				39085872D5906D0AFD549A855F90763D /* Headers */,
+				984162D086908EC1D26A449CAD11577F /* Sources */,
+				DFB82726B2E21DD8F97D743B926254A3 /* Frameworks */,
+				CA66B62D68DA44F5E2A19D230CBBB1C7 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -327,7 +444,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				882730AE7D3800F57295B1BA937FD2F6 /* FFHelper */,
+				953A6C7E171491A9C64A4BB0BA03A4C4 /* FFHelper */,
 				2D3DE146DCCD5ED966231044572983B7 /* Pods-FFHelper_Example */,
 				E1D8843A40134EE9116B578CA9EDDF12 /* Pods-FFHelper_Tests */,
 			);
@@ -335,15 +452,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2FE5D1894C07AA617B6E1D8E701CA4AB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6E969A132C4E6980B8BAAD41382975F5 /* FFHelper-dummy.m in Sources */,
-				0E9B275F61C70AEDC48C10433A53B6D8 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6A07D7742259923342ECF9E307F7ADE4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -360,18 +468,96 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		984162D086908EC1D26A449CAD11577F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89134399209555C434563474FB0C1736 /* FFFPSLabel.m in Sources */,
+				133A86356E78D4347A0D2DF7577F3D9D /* FFHelper-dummy.m in Sources */,
+				4BF3D1488B41E34E452E6582B8310302 /* FFWeakProxy.m in Sources */,
+				973EB7EAA0288A223B7F7DF04BE6D39C /* NSDate+FFHelper.m in Sources */,
+				F6EFA63DA69FF11010E501A9C45339ED /* NSObject+FFArraySafe.m in Sources */,
+				2E3933901B392188AE0FCBC158FF9717 /* NSObject+FFDictionarySafe.m in Sources */,
+				1172B207E27F165B95443F454B6B0A01 /* NSObject+FFHelper.m in Sources */,
+				17440EAB6843CCF5BAFAE58AF6B11825 /* NSObject+FFSafe.m in Sources */,
+				3457B72C5CAF20C6A942D6D42EE6FACF /* NSObject+FFStringSafe.m in Sources */,
+				C8BEB3F4AC8CF3E4962054D8C6E4AC5A /* UIColor+FFHelper.m in Sources */,
+				4242E1E9E177613D0CCE84847758166C /* UIView+FFHelper.m in Sources */,
+				87DF7BA1755F9AD632886E3EFA302DE4 /* UIViewController+FFHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		49C5F109314AA55B2904F74EA6EE77DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FFHelper;
-			target = 882730AE7D3800F57295B1BA937FD2F6 /* FFHelper */;
+			target = 953A6C7E171491A9C64A4BB0BA03A4C4 /* FFHelper */;
 			targetProxy = D5FDE9844E6700D1658A394859A90632 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0E57C63003A88A54B1FCD031A85741B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F52DE84040DC3D9E9590F56706D0D966 /* FFHelper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FFHelper/FFHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FFHelper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FFHelper/FFHelper.modulemap";
+				PRODUCT_NAME = FFHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3532A9B99FE866BFB7FD34B41B511B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F52DE84040DC3D9E9590F56706D0D966 /* FFHelper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FFHelper/FFHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FFHelper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FFHelper/FFHelper.modulemap";
+				PRODUCT_NAME = FFHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		3CFA55A7E38F464AE73F1D012E70BA1E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DC364C8FEE5A123F6AF16C017580AADA /* Pods-FFHelper_Example.debug.xcconfig */;
@@ -531,35 +717,6 @@
 			};
 			name = Debug;
 		};
-		ADE9CB11DF5C49E439600180F2B94DE6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F52DE84040DC3D9E9590F56706D0D966 /* FFHelper.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FFHelper/FFHelper-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FFHelper/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FFHelper/FFHelper.modulemap";
-				PRODUCT_NAME = FFHelper;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		DA03565BE765DB55C6448FB363A44481 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -615,36 +772,6 @@
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		DDBBB535810A937102FB50B7FD71BF21 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F52DE84040DC3D9E9590F56706D0D966 /* FFHelper.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FFHelper/FFHelper-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FFHelper/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FFHelper/FFHelper.modulemap";
-				PRODUCT_NAME = FFHelper;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -711,11 +838,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		94F4692AA8E4E14088633FE253DC87F9 /* Build configuration list for PBXNativeTarget "FFHelper" */ = {
+		B38D192BF3F1FED2291617B0124A7DBE /* Build configuration list for PBXNativeTarget "FFHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ADE9CB11DF5C49E439600180F2B94DE6 /* Debug */,
-				DDBBB535810A937102FB50B7FD71BF21 /* Release */,
+				0E57C63003A88A54B1FCD031A85741B5 /* Debug */,
+				3532A9B99FE866BFB7FD34B41B511B58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
