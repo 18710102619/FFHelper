@@ -1,0 +1,16 @@
+PODS:
+  - FFHelper (0.1.0)
+
+DEPENDENCIES:
+  - FFHelper (from `../`)
+
+EXTERNAL SOURCES:
+  FFHelper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FFHelper: 71ed9a82a7331c6205fb8c467b874f4fc6de0c55
+
+PODFILE CHECKSUM: f622d9648d074f1e852651e42058b3be9be7c96f
+
+COCOAPODS: 1.2.1

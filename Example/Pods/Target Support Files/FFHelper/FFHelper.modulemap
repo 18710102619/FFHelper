@@ -1,0 +1,6 @@
+framework module FFHelper {
+  umbrella header "FFHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}
