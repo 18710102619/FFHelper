@@ -31,7 +31,15 @@
     return [[self dateComponent] month];
 }
 
-+ (NSDate *)ff_dateFromString:dateString dateFormat:(NSString *)dateFormat
++ (NSString *)ff_stringFromDate:(NSDate *)date dateFormat:(NSString *)dateFormat
+{
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    formatter.dateFormat = dateFormat;
+    NSString *dateString = [formatter stringFromDate:date];
+    return dateString;
+}
+
++ (NSDate *)ff_dateFromString:(NSString *)dateString dateFormat:(NSString *)dateFormat
 {
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
     formatter.dateFormat = dateFormat;

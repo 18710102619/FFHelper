@@ -20,9 +20,13 @@
 @property(nonatomic,assign)NSInteger month;
 
 /**
- 获取时间
+ 时间转字符串
  */
-+ (NSDate *)ff_dateFromString:dateString dateFormat:(NSString *)dateFormat;
++ (NSString *)ff_stringFromDate:(NSDate *)date dateFormat:(NSString *)dateFormat;
+/**
+ 字符串转时间
+ */
++ (NSDate *)ff_dateFromString:(NSString *)dateString dateFormat:(NSString *)dateFormat;
 /**
  获取时间戳
  */
